@@ -145,14 +145,7 @@ export function Navigation() {
         </Sheet>
 
         {/* Emergency SOS Button - Always Visible */}
-        <Link href="/emergency" className="fixed bottom-6 right-6 z-50">
-          <Button
-            size="lg"
-            className="rounded-full h-14 w-14 bg-destructive hover:bg-destructive/90 shadow-lg"
-          >
-            <Phone className="h-6 w-6" />
-          </Button>
-        </Link>
+        
       </div>
     </nav>
   );
